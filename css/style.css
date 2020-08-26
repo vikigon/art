@@ -1,0 +1,76 @@
+body {
+	background-color: #ffd965;
+}
+
+#container {
+	background-color: red;
+	height: 3900px;
+}
+
+header {
+	background-color: blue;
+	height: 50px;
+}
+
+#menu_left {
+	background-color: yellow;
+}
+
+#menu_right {
+	background-color: black;
+}
+
+#hero_row {
+	background-color: violet;
+	height: 800px;
+}
+
+#arte_left {
+	background-color: #855c54;
+	height: 700px;
+}
+
+#arte_right {
+	background-color: #854235;
+	height: 700px;
+}
+
+#prosa_left {
+	background-color: #6d8bcf;
+	height: 700px;
+}
+
+#prosa_right {
+	background-color: #3b60b3;
+	height: 700px;
+}
+
+#baul_title {
+	background-color: orange;
+	height: 300px;
+}
+
+#baul1 {
+	background-color: #dbbe8c;
+	height: 300px;
+}
+
+#baul2 {
+	background-color: #d1a354;
+	height: 300px;
+}
+
+#baul3 {
+	background-color: #c28825;
+	height: 300px;
+}
+
+#jardin {
+	background-color: pink;
+	height: 200px;
+}
+
+footer {
+	background-color: grey;
+	height: 200px;
+}
