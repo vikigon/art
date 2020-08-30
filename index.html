@@ -1,53 +1,98 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>VIKI GON ART TOMA 2</title>
+	<title>VIKI GON</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <div class="container" id="container">
-	<header class="row">
-		<div class="col-md-2" id="menu_left"></div>
-		<div class="col-md-10" id="menu_right"></div>
-	</header>
-	<!-- BANNER -->
-	<section class="row" id="hero_row">
-		<div class="col"></div>
-	</section>
-	<!-- ARTE ILUSTRACION -->
-    <div class="row">
-		<div class="col-md-5" id="arte_left"></div>
-		<div class="col-md-6 offset-md-1" id="arte_right"></div>
+
+<div class="container" id="container_navbar">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">VIKI GON</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="#arte">arte / ilustración</a></li>
+				<li class="nav-item"><a class="nav-link" href="#texto">prosa / poesía</a></li>
+				<li class="nav-item"><a class="nav-link" href="#baul">baúl</a></li>
+				<li class="nav-item"><a class="nav-link" href="#soy">soy</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+
+<!-- BANNER -->
+<section class="row" id="hero_row">
+	<div class="col"></div>
+</section>
+<!-- ARTE ILUSTRACION -->
+<section id="arte" class="row">
+	<div class="col-md-5" id="arte_left"></div>
+	<div class="col-md-6 offset-md-1" id="arte_right"></div>
+</section>
+<!-- PROSA POESIA -->
+<section id="texto" class="row">
+	<div class="col-md-6" id="prosa_left"></div>
+	<div class="col-md-5 offset-md-1" id="prosa_right"></div>
+</section>
+<!-- JARDIN SECRETO -->
+<section class="row">
+	<div class="col" id="jardin"></div>
+</section>
+<!-- BAUL -->
+<section id="baul" class="row">
+	<div class="col-12" id="baul_title"></div>
+	<div class="col-md-2 offset-md-3" id="baul1"></div>
+	<div class="col-md-2" id="baul2"></div>
+	<div class="col-md-2" id="baul3"></div>
+</section>
+<!-- SOY -->
+<section id="soy" class="row">
+	<div class="col-md-6" id="soy_left">
+		<form role="form">
+		  <div class="form-group">
+		    <label for="name">Nombre</label>
+		    <input type="text" class="form-control" id="name" placeholder="Ingresá tu nombre" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email</label>
+		    <input type="email" class="form-control" id="email"
+		           placeholder="Introducí tu email" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="website">Sitio web</label>
+		    <input type="url" class="form-control" id="website" placeholder="http://...">
+		    <p class="help-block">Si tenés un sitio web o un blog, ingresalo acá.</p>
+		  </div>
+		  <div class="form-group">
+		    <label for="message">Mensaje</label>
+		    <textarea type="text" class="form-control" id="message" rows="5" cols="50" maxlength="250"></textarea>
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox" class="form-check form-check-inline" required>Activá esta casilla para enviar el mensaje
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-dark btn-block">Enviar</button>
+		</form>
 	</div>
-	<!-- PROSA POESIA -->
-    <div class="row">
-		<div class="col-md-6" id="prosa_left"></div>
-		<div class="col-md-5 offset-md-1" id="prosa_right"></div>
-	</div>
-	<!-- JARDIN SECRETO -->
-    <div class="row">
-		<div class="col" id="jardin"></div>
-	</div>
-	<!-- BAUL -->
-	<div class="row">
-		<div class="col-12" id="baul_title"></div>
-		<div class="col-md-2 offset-md-3" id="baul1"></div>
-		<div class="col-md-2" id="baul2"></div>
-		<div class="col-md-2" id="baul3"></div>
-	</div>
-	<!-- SOY -->
-	<div class="row">
-		<div class="col-md-6" id="prosa_left"></div>
-		<div class="col-md-5 offset-md-1" id="prosa_right"></div>
-	</div>
- 	<footer class="row" id="footer">
-		<div class="col-md-2" id="header1"></div>
-		<div class="col-md-8 offset-md-2" id="header2"></div>
-	</footer>
+	<div class="col-md-5 offset-md-1" id="soy_right"></div>
+</section>
+
+<footer class="row" id="footer">
+	<div class="col-md-2" id="header1"></div>
+	<div class="col-md-8 offset-md-2" id="header2"></div>
+</footer>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
