@@ -1,23 +1,98 @@
 body {
-	background-color: #ffd965;
+	background-color: #fafafa;
 	padding-top: 50px;
 }
 
 #container {
 	background-color: #fafafa;
-	height: 3900px;
 }
 
 #container_navbar {
 	background-color: #fafafa;
 }
 
-header {
-	background-color: blue;
-	height: 50px;
+p, a, label, input, textarea, .btn {
+	font-family: 'Inconsolata', monospace;
 }
 
-p, a, label, input, textarea, .btn {
+a.white_hover:hover {
+	color: #fafafa;
+}
+
+a.yellow_hover:hover {
+	color: #fdecb9;
+}
+
+a.nav-link {
+	color: rgba(0,0,0,.5);
+}
+
+a.nav-link:hover {
+	color: rgba(0,0,0,.7);
+}
+
+a.mini_link {
+	color: #b2b2b2;
+}
+
+a.mini_link:hover {
+	color: #b2b2b2;
+}
+
+h1 {
+	font-family: 'Rammetto One', cursive;
+	font-size: 80px;
+	color: #fafafa;
+}
+
+small {
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	text-align: left;
+	line-height: 78px;
+}
+
+.h2_centered {
+	text-align: center;
+}
+
+.prosa_txt {
+	text-align: right;
+}
+
+.highlight_yellow {
+	background-color: #fad977;
+	color: #fafafa;
+	padding: 0;
+}
+
+.highlight_peach {
+	background-color: #ecac9b;
+	color: #fdecb9;
+	padding: 0;
+}
+
+.highlight_white {
+	background-color: #fafafa;
+	color: #c7c7c7;
+	padding: 0;
+}
+
+.card {
+	background-color: transparent;
+	border: none;
+}
+
+.card-body {
+	margin: 1em;
+}
+
+.card-title {
 	font-family: 'Inconsolata', monospace;
 }
 
@@ -35,68 +110,119 @@ form {
 	padding-top: 0.5em;
 }
 
+.page-header {
+	padding: 0;
+}
 
-#hero_row {
-	background-color: #c25586;
-	height: 800px;
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
+
+.carousel1 {
+	background-color: #ffd965;
+}
+
+.carousel2 {
+	background-color: #81e3a7;
+}
+
+
+#arte_ilus {
+	background-image: url("../img/ese.svg");
 }
 
 #arte_left {
-	background-color: #855c54;
-	height: 700px;
+	height: 490px;
 }
 
 #arte_right {
-	background-color: #854235;
-	height: 700px;
+	height: 490px;
+}
+
+.arte_img {
+	width: 110%;
 }
 
 #prosa_left {
-	background-color: #6980b8;
-	height: 700px;
+	height: 490px;
 }
 
 #prosa_right {
-	background-color: #3b60b3;
-	height: 700px;
+	height: 490px;
+}
+
+.prosa_img {
+	width: 150%;
+}
+
+#baul {
+	background-color: #bbd8ff;
 }
 
 #baul_title {
-	background-color: #cc7818;
 	height: 300px;
 }
 
-#baul1 {
-	background-color: #dbbe8c;
+.card-deck {
+	margin-bottom: 5em;
+}
+
+.card1 {
+	background-image: url("../img/rayadito.svg");
+	background-repeat:no-repeat;
+	background-position: center;
+	margin: 0 2.5em 0 2.5em;
+
+}
+
+.card2 {
+	background-image: url("../img/resistencia.svg");
+	background-repeat:no-repeat;
+	background-position: center;
+	margin: 0 2.5em 0 2.5em;
+}
+
+.card3 {
+	background-image: url("../img/cuadrado.svg");
+	background-repeat:no-repeat;
+	background-position: center;
+	margin: 0 2.5em 0 2.5em;
+}
+
+#jardin_caca {
+	height: 70px;
+}
+
+.jardin_secreto {
+	margin: 3em 0 1.5em 0;
+	color: #b2b2b2;
+}
+
+#soy {
+	background-color: #edac9d;
+}
+
+#hola {
 	height: 300px;
 }
 
-#baul2 {
-	background-color: #d1a354;
-	height: 300px;
-}
-
-#baul3 {
-	background-color: #c28825;
-	height: 300px;
-}
-
-#jardin {
-	background-color: #91c255;
-	height: 200px;
+.border_img {
+	border: 7px;
+	border-style: dashed;
+	border-color: #f9d976;
 }
 
 #soy_left {
-	background-color: #a769b8;
 	height: 700px;
 }
 
 #soy_right {
-	background-color: #9437ad;
 	height: 700px;
 }
 
-footer {
+/*footer {
 	background-color: #ccca45;
 	height: 200px;
-}
+}*/

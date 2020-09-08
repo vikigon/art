@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -20,43 +22,138 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item"> <a class="nav-link" href="#arte">arte / ilustración</a></li>
-				<li class="nav-item"><a class="nav-link" href="#texto">prosa / poesía</a></li>
+				<li class="nav-item"> <a class="nav-link" href="#arte">arte & ilustración</a></li>
+				<li class="nav-item"><a class="nav-link" href="#texto">prosa & poesía</a></li>
 				<li class="nav-item"><a class="nav-link" href="#baul">baúl</a></li>
-				<li class="nav-item"><a class="nav-link" href="#soy">soy</a></li>
+				<li class="nav-item"><a class="nav-link" href="#soy">h0la</a></li>
 			</ul>
 		</div>
 	</nav>
 </div>
 
 
-<!-- BANNER -->
+<!-- CAROUSEL -->
 <section class="row" id="hero_row">
-	<div class="col"></div>
+	<div class="col page-header">
+		<div class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active" data-interval="1200">
+		        <img src="img/carrusel1.svg" class="d-block w-100" alt="fondo con formas geométricas">
+		        <div class="carousel-caption d-none d-md-block">
+			        <h1>VIKI GON</h1>
+			        <small>Mi sitio de arte</small>
+		    	</div>
+		    </div>
+		    <div class="carousel-item" data-interval="1200">
+		    	<img src="img/carrusel2.svg" class="d-block w-100" alt="el mismo fondo, pero de otro color">
+		        <div class="carousel-caption d-none d-md-block">
+			        <h1>VIKI GON</h1>
+			        <small>Mi sitio de arte</small>
+		    	</div>
+		    </div>
+		    <div class="carousel-item" data-interval="1200">
+		    	<img src="img/carrusel3.svg" class="d-block w-100" alt="otra vez el mismo fondo, de otro color más">
+		        <div class="carousel-caption d-none d-md-block">
+			        <h1>VIKI GON</h1>
+			        <small>Mi sitio de arte</small>
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
 </section>
+
 <!-- ARTE ILUSTRACION -->
-<section id="arte" class="row">
-	<div class="col-md-5" id="arte_left"></div>
-	<div class="col-md-6 offset-md-1" id="arte_right"></div>
-</section>
+<section id="arte_ilus" class="row">
+	<div class="col-md-6" id="arte_left">
+		<div class="carousel-caption">
+			<a id="arte" class="white_hover" href="https://despiertasonar.tumblr.com/tagged/arte" target="_blank"><h2><span class="highlight_yellow">ARTE /<br />ILUS-<br />TRA-<br />CIÓN</span></h2></a>
+		</div>
+	</div>
+	<div class="col-md-6" id="arte_right">
+		<div class="carousel-caption">
+			<img class="img-fluid" src="img/margarita.png" alt="margarita" />
+		</div>
+	</div>
+<!-- </section> -->
+
 <!-- PROSA POESIA -->
-<section id="texto" class="row">
-	<div class="col-md-6" id="prosa_left"></div>
-	<div class="col-md-5 offset-md-1" id="prosa_right"></div>
+<!-- <section id="texto" class="row"> -->
+	<div class="col-md-6" id="prosa_left" id="texto">
+		<div class="carousel-caption">
+			<img class="prosa_img" src="img/antigona.png" alt="Antígona" />
+		</div>
+	</div>
+	<div class="col-md-6" id="prosa_right">
+		<div class="carousel-caption">
+			<a id="texto" class="yellow_hover" href="https://despiertasonar.tumblr.com/tagged/arte" target="_blank"><h2 class="prosa_txt"><span class="highlight_peach">PROSA<br />/ PO-<br />E-<br />SÍ-<br />A</span></h2></a>
+		</div>
+	</div>
 </section>
+
 <!-- JARDIN SECRETO -->
-<section class="row">
-	<div class="col" id="jardin"></div>
+
+<section class="row" id="jardin_caca" style="height: 70px;">
+	<div class="col">
+		<div class="carousel-caption">
+			<p class="jardin_secreto"><strong>¡Psst!</strong> Paseá por <a class="mini_link" href="https://mi-jardin-secreto.tumblr.com" target="_blank">- mi jardín secreto -</a>.</p>
+		</div>
+	</div>
 </section>
+
+
 <!-- BAUL -->
 <section id="baul" class="row">
-	<div class="col-12" id="baul_title"></div>
-	<div class="col-md-2 offset-md-3" id="baul1"></div>
+	<div class="col" id="baul_title">
+		<div class="carousel-caption">
+			<h2 style="text-align: center;"><span class="highlight_yellow"> EL BAÚL</span></h2>
+			<small>Acá guardo algo de inspiración</small>
+		</div>
+	</div>
+
+	<div class="card-deck">
+  <div class="card text-center">
+    <div class="card1">
+    	<a href="https://queamo.tumblr.com/tagged/arte" target="_blank"><img src="img/arte.png" class="card-img-top" alt="arte"></a>
+	</div>
+    <div class="card-body">
+      <h5 class="card-title">#arte</h5>
+      <p class="card-text">Algunas obras de arte e ilustraciones que me gustan.</p>
+    </div>
+  </div>
+  <div class="card text-center">
+  	<div class="card2">
+    	<a href="https://queamo.tumblr.com/tagged/letras" target="_blank"><img src="img/letras.png" class="card-img-top" alt="letras"></a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">#letras</h5>
+      <p class="card-text">Textos, citas y demás artificios del lenguaje que me hacen feliz.</p>
+    </div>
+  </div>
+  <div class="card text-center">
+  	<div class="card3">
+    	<a href="https://queamo.tumblr.com/tagged/popurrí" target="_blank"><img src="img/popurri.png" class="card-img-top" alt="popurrí"></a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">#popurrí</h5>
+      <p class="card-text">Una ensalada de cosas que encontré por la web y me quise quedar.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 	<div class="col-md-2 offset-md-3" id="baul1"></div>
 	<div class="col-md-2" id="baul2"></div>
-	<div class="col-md-2" id="baul3"></div>
+	<div class="col-md-2" id="baul3"></div> -->
 </section>
+
 <!-- SOY -->
 <section id="soy" class="row">
+	<div class="col-md-12" id="hola">
+		<div class="carousel-caption">
+			<h2 class="h2_centered"><span class="highlight_white">H0LA</span></h2>
+			<small>Contame de vos o mostrame lo que hacés</small>
+		</div>
+	</div>
 	<div class="col-md-6" id="soy_left">
 		<form role="form">
 		  <div class="form-group">
@@ -79,18 +176,27 @@
 		  </div>
 		  <div class="checkbox">
 		    <label>
-		      <input type="checkbox" class="form-check form-check-inline" required>Activá esta casilla para enviar el mensaje
+		      <input type="checkbox" class="form-check form-check-inline" required>Hacé ✓ para enviar el mensaje
 		    </label>
 		  </div>
-		  <button type="submit" class="btn btn-dark btn-block">Enviar</button>
+		  <button type="submit" class="btn btn-light btn-block">Enviar</button>
 		</form>
 	</div>
-	<div class="col-md-5 offset-md-1" id="soy_right"></div>
+	<div class="col-md-5 offset-md-1" id="soy_right">
+		<img class="img-fluid border_img" style="margin-top: 16%;" src="img/de_quoi_ecrire_fenner_behmer.jpg" alt="De quoi écrire, un cuadro de Fenner-Behmer">
+	</div>
 </section>
 
 <footer class="row" id="footer">
-	<div class="col-md-2" id="header1"></div>
-	<div class="col-md-8 offset-md-2" id="header2"></div>
+	<div class="col-12" id="">
+			<ul class="nav">
+				<li class="nav-item"><a class="nav-link" href="#hero_row">VIKI GON</a></li>
+				<li class="nav-item"><a class="nav-link" href="#arte">arte & ilustración</a></li>
+				<li class="nav-item"><a class="nav-link" href="#texto">prosa & poesía</a></li>
+				<li class="nav-item"><a class="nav-link" href="#baul">baúl</a></li>
+				<li class="nav-item"><a class="nav-link" href="#soy">h0la</a></li>
+			</ul>
+	</div>
 </footer>
 
 </div>
